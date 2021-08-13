@@ -8,7 +8,7 @@
   height: 100%;
   display: block;
   background-image: url(frontpg.png);
-  background-size: auto;
+  background-size: cover;
   background-position: bottom;
   position: absolute;
   overflow: hidden;
@@ -17,14 +17,13 @@
 
 h4 {
   color: rgb(255, 255, 255);
-  width: 300px;
-  height: 90%;
+  width: 18%;
   font-family: Verdana;
   background-color: rgb(13, 13, 14);
-  opacity: 60%;
+  opacity: 70%;
   border: 5px solid rgb(255, 255, 255);
   border-style: dotted;
-  font-size: 50px;
+  font-size: 240%;
 }
 
 .back {
@@ -100,29 +99,12 @@ h4 {
   }
 }
 .wheel {
-  left: 8%;
-  bottom: 125px;
+  bottom: -88px;
   position: absolute;
   z-index: 3;
+  width: 99%;
 }
-.wheel img {
-  width: 120px;
-  height: 120px;
-  animation: wheel 0.4s linear infinite;
-}
-.b-wheel {
-  left: -102px;
-  position: absolute;
-}
-.f-wheel {
-  left: 225px;
-  position: absolute;
-}
-@keyframes wheel {
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 .car2 {
   position: absolute;
   width: 56%;
@@ -193,7 +175,7 @@ h4 {
 .bike img {
   height: 239px;
   width: 18%;
-  animation: bike 20s linear infinite;
+  animation: bike 23s linear infinite;
   filter: drop-shadow(0em 2em 2em black);
 }
 @keyframes bike {
@@ -234,7 +216,7 @@ h4 {
 }
 
 .wordsWrap {
-  margin-top: 50px;
+  margin-top: 2%;
 }
 
 .words span {
@@ -248,34 +230,32 @@ h4 {
 }
 
 .playerScore {
-  border: 4px white;
+  border: 3px white;
   border-style: dashed;
   position: absolute;
-  bottom: 92vh;
+  bottom: 91%;
   z-index: 4;
-  right: 4vh;
+  right: 1%;
   color: white;
   font-family: cursive;
-  font-size: 37px;
+  font-size: 214%;
 }
 
 .timer {
   background-color: #ffffff8a;
-  border: outset;
-  position: absolute;
-  top: 2vh;
-  right: 29vh;
-  color: rgb(165 1 1);
-  font-family: -webkit-pictograph;
-  font-size: 35px;
+    border: outset;
+    position: absolute;
+    top: 4%;
+    right: 70%;
+    color: rgb(165 1 1);
+    font-family: fantasy;
+    font-size: 196%;
 }
 .Lp {
-  z-index: 3;
   width: 100%;
   height: 100%;
   background-image: url(frontpg.png);
-  background-size: auto;
-  background-position: bottom;
+  background-size: cover;
   display: none;
   position: absolute;
   overflow: hidden;
@@ -306,14 +286,14 @@ h4 {
 }
 .wLeft {
   position: relative;
-  right: -10%;
+  right: -9%;
   color: #000000;
-  top: 9vh;
+  top: 11vh;
   font-family: fantasy;
   z-index: 4;
-  font-size: 159%;
+  font-size: 143%;
   background-color: #27bed2;
-  width: 15vh;
+  width: 10%;
 }
 
 .gName {
@@ -325,18 +305,19 @@ h4 {
   width: 449px;
   position: relative;
   left: 41.8%;
-  top: 280px;
+  top: 28%;
 }
 
 .devoloper {
   background-color: aqua;
-  opacity: 79%;
+  opacity: 100%;
   font-size: 36px;
   width: 595px;
   font-family: cursive;
   position: relative;
-  left: 38%;
-  top: 290px;
+  left: 35%;
+  text-align: center;
+  top: 31%;
   border: 5px solid black;
   border-style: double;
 }
@@ -385,7 +366,7 @@ h4 {
   font-size: 20px;
 }
 
-.endGamename{
+.endGamename {
   border: dashed 3px #909090;
   color: white;
   width: 350px;
@@ -398,42 +379,42 @@ h4 {
   bottom: -3%;
 }
 
-.res{
+.res {
   color: rgb(255, 0, 0);
-      font-family: Impact;
-      font-size: 70px;
-      opacity: 140%;
-      position: relative;
-      left: 44%;
-      bottom: -20%;
-      filter: drop-shadow(2px 4px 6px black);
+  font-family: Impact;
+  font-size: 70px;
+  opacity: 140%;
+  position: relative;
+  left: 44%;
+  bottom: -20%;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
-.gameOver{
+.gameOver {
   color: brown;
-      font-family: fantasy;
-      font-size: 77px;
-      background-color: #000000;
-      opacity: 140%;
-      width: 488px;
-      position: relative;
-      left: 38.8%;
-      bottom: 3%;
+  font-family: fantasy;
+  font-size: 77px;
+  background-color: #000000;
+  opacity: 140%;
+  width: 488px;
+  position: relative;
+  left: 38.8%;
+  bottom: 3%;
 }
 
-.scor{
+.scor {
   opacity: 100%;
-      font-variant: petite-caps;
-      font-size: 52px;
-      font-family: fantasy;
-      position: relative;
-      left: 37%;
-      bottom: -12%;
-      color: #ffffff;
-      filter: drop-shadow(2px 4px 6px black);
+  font-variant: petite-caps;
+  font-size: 52px;
+  font-family: fantasy;
+  position: relative;
+  left: 37%;
+  bottom: -12%;
+  color: #ffffff;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
-.dificulty{
+.dificulty {
   opacity: 100%;
   font-variant: petite-caps;
   font-size: 48px;
@@ -441,45 +422,50 @@ h4 {
   position: relative;
   left: 40%;
   bottom: -14%;
-  color:  #fcff5a;
+  color: #fcff5a;
   filter: drop-shadow(2px 4px 6px black);
 }
 
-.btn4{
+.btn4 {
   background-color: rgb(255 255 255);
-        position: relative;
-        left: 42%;
-        border: outset 10px;
-        bottom: -17%;
-        width: 100px;
-        filter: drop-shadow(2px 4px 6px black);
-        font-size: 27px;
+  position: relative;
+  left: 42%;
+  border: outset 10px;
+  bottom: -17%;
+  width: 100px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 27px;
 }
 
-.btn5{
+.btn5 {
   background-color: rgb(161 243 105);
-        position: relative;
-        left: 45%;
-        border: outset 10px;
-        filter: drop-shadow(2px 4px 6px black);
-        bottom: -17%;
-        width: 108px;
-        color: rgb(0, 0, 0);
-        font-size: 27px;
+  position: relative;
+  left: 45%;
+  border: outset 10px;
+  filter: drop-shadow(2px 4px 6px black);
+  bottom: -17%;
+  width: 108px;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
 }
 
-.btn6{
+.btn6 {
   background-color: rgb(226 100 0);
-          position: relative;
-          border: outset 10px;
-          left: 48%;
-          filter: drop-shadow(2px 4px 6px black);
-          bottom: -17%;
-          width: 103px;
-          font-size: 27px;
+  position: relative;
+  border: outset 10px;
+  left: 48%;
+  filter: drop-shadow(2px 4px 6px black);
+  bottom: -17%;
+  width: 103px;
+  font-size: 27px;
 }
 
-p :hover{
-  color: red;
-  background-color: #27bed2;
+@media screen and (max-width: 1300px) {
+  .car img{height: 206px;}
+  .wheel {bottom: -73px;}
+  .car2 img {height: 217px;}
+  .car3 img{height: 350px;}
+  .bike img{height: 189px;}
+  .car4 img{height: 440px;}
 }
+
