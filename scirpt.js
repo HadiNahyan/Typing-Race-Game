@@ -43,40 +43,8 @@ var passedCar = 0;
 var currentWord = "";
 var checkingIndex = 0;
 var difficultyChek = 0;
-var carPaddings = ["2%","5%","11%","13%","16%","18%","21%","23%","26%","29%","31%","33%","36%","38%","41%","43%","46%","49%","51%","53%","56%","58%","61%","63%","66%","67%","69%","71%","73%","74%","75%",];
-var wheelPadding = [
-  "8%",
-  "11%",
-  "17%",
-  "19%",
-  "22%",
-  "24%",
-  "27%",
-  "29%",
-  "32%",
-  "34%",
-  "37%",
-  "39%",
-  "42%",
-  "44%",
-  "47%",
-  "49%",
-  "52%",
-  "54%",
-  "57%",
-  "59%",
-  "62%",
-  "64%",
-  "67%",
-  "69%",
-  "71%",
-  "72%",
-  "75%",
-  "77%",
-  "79%",
-  "80%",
-  "81%",
-];
+var carPaddings = ["2%","5%","11%","13%","16%","18%","21%","23%","26%","28%","31%","33%","36%","38%","41%","43%","46%","49%","51%","53%","56%","58%","61%","63%","66%","67%","69%","71%","73%","74%","75%"];
+//var wheelPadding = ["8%","11%","17%","19%","22%","24%","27%","29%","32%","34%","37%","39%","42%","44%","47%","49%","52%","54%","57%","59%","62%","64%","67%","69%","71%","72%","75%","77%","79%","80%","81%"];
 
 easy.onclick = function () {
   if (targetDiv.style.display !== "none") {
@@ -257,8 +225,8 @@ function moveCar(passedCar) {
   //Mopving car to frontward or backward
   var myCar = document.getElementsByClassName("car");
   setInterval(cAnim, 40);
-  var myWheel = document.getElementsByClassName("wheel");
-  setInterval(wAnim, 40);
+ // var myWheel = document.getElementsByClassName("wheel");
+  //setInterval(wAnim, 40);
 }
 
 function cAnim() {
@@ -266,10 +234,10 @@ function cAnim() {
   document.getElementById("myCar").style.transition = "all 2s"; //transition for smooth move
 }
 
-function wAnim() {
-  document.getElementById("caka").style.left = wheelPadding[passedCar];
-  document.getElementById("caka").style.transition = "all 2s";
-}
+//function wAnim() {
+  //document.getElementById("caka").style.left = wheelPadding[passedCar];
+  //document.getElementById("caka").style.transition = "all 2s";
+//}
 
 document.addEventListener("keydown", typing, false);
 
