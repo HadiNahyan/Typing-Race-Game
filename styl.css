@@ -460,7 +460,7 @@ h4 {
   font-size: 27px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .car img{height: 206px;}
   .wheel {bottom: -73px;}
   .car2 img {height: 217px;}
