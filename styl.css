@@ -23,7 +23,7 @@ h4 {
   opacity: 70%;
   border: 5px solid rgb(255, 255, 255);
   border-style: dotted;
-  font-size: 240%;
+  font-size: 320%;
 }
 
 .back {
@@ -83,7 +83,7 @@ h4 {
   z-index: 3;
 }
 .car img {
-  height: 258px;
+  height: 265px;
   width: 25%;
   animation: car 1s linear infinite;
 }
@@ -99,7 +99,7 @@ h4 {
   }
 }
 .wheel {
-  bottom: -88px;
+  bottom: -93px;
   position: absolute;
   z-index: 3;
   width: 99%;
@@ -109,7 +109,7 @@ h4 {
   position: absolute;
   width: 56%;
   bottom: 90px;
-  left: 12%;
+  left: 16%;
   z-index: 2;
 }
 
@@ -138,8 +138,8 @@ h4 {
 .car3 {
   position: absolute;
   width: 109%;
-  bottom: 17px;
-  left: 65%;
+  bottom: 25px;
+  left: 68%;
   z-index: 2;
 }
 
@@ -168,7 +168,7 @@ h4 {
 .bike {
   position: absolute;
   width: 89%;
-  bottom: 81px;
+  bottom: 101px;
   left: 100%;
   z-index: 2;
 }
@@ -190,12 +190,12 @@ h4 {
   width: 100%;
   position: absolute;
   bottom: -96px;
-  left: 27%;
+  left: 32%;
   z-index: 2;
 }
 .car4 img {
-  width: 27%;
-  height: 490px;
+  width: 26%;
+  height: 528px;
   filter: drop-shadow(0em 2em 2em black);
   animation: car4 49s linear infinite;
 }
@@ -243,19 +243,20 @@ h4 {
 
 .timer {
   background-color: #ffffff8a;
-    border: outset;
-    position: absolute;
-    top: 4%;
-    right: 70%;
-    color: rgb(165 1 1);
-    font-family: fantasy;
-    font-size: 196%;
+  border: outset;
+  position: absolute;
+  top: 4%;
+  right: 70%;
+  color: rgb(165 1 1);
+  font-family: fantasy;
+  font-size: 196%;
 }
 .Lp {
   width: 100%;
   height: 100%;
   background-image: url(frontpg.png);
   background-size: cover;
+  background-position: bottom;
   display: none;
   position: absolute;
   overflow: hidden;
@@ -286,14 +287,14 @@ h4 {
 }
 .wLeft {
   position: relative;
-  right: -9%;
+  right: -10%;
   color: #000000;
-  top: 11vh;
   font-family: fantasy;
   z-index: 4;
   font-size: 143%;
   background-color: #27bed2;
-  width: 10%;
+  width: 7%;
+  bottom: -70px;
 }
 
 .gName {
@@ -367,71 +368,58 @@ h4 {
 }
 
 .endGamename {
-  border: dashed 3px #909090;
+  border: dashed 3px #ffffff;
   color: white;
-  width: 350px;
-  background-color: black;
+  background-color: #00000085;
   font-family: Impact;
   font-size: 70px;
   opacity: 140%;
-  position: relative;
   left: 42%;
-  bottom: -3%;
+  text-align: center;
 }
 
 .res {
-  color: rgb(255, 0, 0);
-  font-family: Impact;
-  font-size: 70px;
+  font-family: cursive;
+  font-size: 392%;
   opacity: 140%;
-  position: relative;
-  left: 44%;
-  bottom: -20%;
   filter: drop-shadow(2px 4px 6px black);
+  text-align: center;
 }
 
 .gameOver {
-  color: brown;
+  color: #ff0303;
   font-family: fantasy;
-  font-size: 77px;
-  background-color: #000000;
-  opacity: 140%;
-  width: 488px;
-  position: relative;
-  left: 38.8%;
-  bottom: 3%;
+  font-size: 423%;
+  opacity: 100%;
+  text-align: center;
+  filter: drop-shadow(-2px 4px 8px black);
 }
 
 .scor {
   opacity: 100%;
   font-variant: petite-caps;
-  font-size: 52px;
+  font-size: 306%;
   font-family: fantasy;
   position: relative;
-  left: 37%;
-  bottom: -12%;
+  text-align: center;
   color: #ffffff;
   filter: drop-shadow(2px 4px 6px black);
 }
 
 .dificulty {
-  opacity: 100%;
   font-variant: petite-caps;
-  font-size: 48px;
+  font-size: 308%;
   font-family: fantasy;
   position: relative;
-  left: 40%;
-  bottom: -14%;
   color: #fcff5a;
+  text-align: center;
   filter: drop-shadow(2px 4px 6px black);
 }
-
 .btn4 {
   background-color: rgb(255 255 255);
   position: relative;
-  left: 42%;
+  left: 38%;
   border: outset 10px;
-  bottom: -17%;
   width: 100px;
   filter: drop-shadow(2px 4px 6px black);
   font-size: 27px;
@@ -440,10 +428,9 @@ h4 {
 .btn5 {
   background-color: rgb(161 243 105);
   position: relative;
-  left: 45%;
+  left: 42%;
   border: outset 10px;
   filter: drop-shadow(2px 4px 6px black);
-  bottom: -17%;
   width: 108px;
   color: rgb(0, 0, 0);
   font-size: 27px;
@@ -453,19 +440,57 @@ h4 {
   background-color: rgb(226 100 0);
   position: relative;
   border: outset 10px;
-  left: 48%;
+  left: 46%;
   filter: drop-shadow(2px 4px 6px black);
-  bottom: -17%;
   width: 103px;
   font-size: 27px;
 }
 
-@media screen and (max-width: 1300px) {
-  .car img{height: 206px;}
-  .wheel {bottom: -73px;}
-  .car2 img {height: 217px;}
-  .car3 img{height: 350px;}
-  .bike img{height: 189px;}
-  .car4 img{height: 440px;}
+@media screen and (max-width: 1350px) {
+  .car img {
+    height: 211px;
+    width: 28%;
+  }
+  .wheel {
+    bottom: -73px;
+  }
+  .car2 {
+    left: 20%;
+  }
+  .car3 {
+    left: 68%;
+  }
+  .car4 {
+    left: 39%;
+  }
+  .car2 img {
+    height: 205px;
+    width: 29%;
+  }
+  .car3 img {
+    height: 350px;
+    width: 21%;
+  }
+  .bike img {
+    height: 190px;
+  }
+  .car4 img {
+    height: 454px;
+    width: 30%;
+  }
+  .btn4 {
+    left: 33%;
+  }
+  .btn5 {
+    left: 38%;
+  }
+  .btn6 {
+    left: 44%;
+  }
+  .wLeft{
+    right: -9%;
+    font-size: 138%;
+    width: 10%;
+    bottom: -83px;
+  }
 }
-
